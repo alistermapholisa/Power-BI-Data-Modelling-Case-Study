@@ -1,2 +1,22 @@
-# Power-BI-Data-Modelling-Case-Study
-A simple case study showing how proper data modelling fixes inaccurate results in Power BI. I started with unconnected tables that produced wrong totals, and solved the issue by building clean relationships and restructuring the model. A practical example of why good data cleaning and modelling matter in analytics.
+# Power BI: Data Modelling Case Study
+
+**Author:** Alister Mapholisa  
+**Topic:** Fixing wrong totals by creating correct relationships in Power BI
+
+## Summary
+
+This repo demonstrates a common problem: receiving multiple tables without relationships, building a report, and getting incorrect totals because the model is not connected. The project shows how to diagnose and fix the issue by establishing proper relationships, verifying cardinality and filter directions, and adding validation measures to confirm correctness.
+
+## What’s included
+
+- `data/` — sample CSVs for Sales and Product lookup tables
+- `images/` — screenshots showing the model before and after creating relationships and the final report
+- `docs/step_by_step.md` — step-by-step instructions
+- Optional: `pbix/` — the Power BI file (if included; note about file size below)
+
+## Quick start
+
+1. Clone the repo:
+```bash
+git clone https://github.com/<your-username>/powerbi-data-modelling-case-study.git
+cd powerbi-data-modelling-case-study
