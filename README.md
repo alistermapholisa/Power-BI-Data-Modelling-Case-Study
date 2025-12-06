@@ -9,7 +9,7 @@ This repo demonstrates a common problem: receiving multiple tables without relat
 
 ## What’s included
 
-- `data/` — sample CSVs for Sales and Product lookup tables
+- `data/` — sample pbix file for Sales and Product lookup tables
 - `images/` — screenshots showing the model before and after creating relationships and the final report
 - `docs/step_by_step.md` — step-by-step instructions
 - Optional: `pbix/` — the Power BI file (if included; note about file size below)
